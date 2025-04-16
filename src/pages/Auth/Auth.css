@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins","san-serif";
+}
+/* https://cdn.pixabay.com/photo/2022/12/26/11/37/bitcoin-7678812_1280.jpg */
+.authContainer{
+  background-image: url("/public/crypto-7678815_1920.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.bgBlure{
+  backdrop-filter: blur(10px);
+}
+.bgBlure h1 {
+  text-align: center;
+}
+/* Adjust the size of the login container */
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.bgBlure {
+  backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 400px; /* Set a maximum width for the login box */
+  padding: 20px;
+  border-radius: 10px; /* Add rounded corners */
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+}
+
+/* Responsive design for smaller devices */
+@media (max-width: 768px) {
+  .bgBlure {
+    max-width: 90%; /* Shrink the width for smaller screens */
+    padding: 15px;
+  }
+
+  .bgBlure h1 {
+    font-size: 1.5rem; /* Adjust the font size of the heading */
+  }
+}
+
+@media (max-width: 480px) {
+  .bgBlure {
+    max-width: 95%; /* Further shrink the width for very small screens */
+    padding: 10px;
+  }
+
+  .bgBlure h1 {
+    font-size: 1.2rem; /* Further adjust the font size of the heading */
+  }
+}
+
+  
+ 
+     
