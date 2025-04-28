@@ -66,7 +66,7 @@ const PaymentDetailsForm = () => {
                   <Input
                     {...field}
                     className="border w-full border-gray-700 py-5 px-5"
-                    placeholder="DigiCrypto Trader"
+                    placeholder="code with zosh"
                   />
                 </FormControl>
 
